@@ -1,0 +1,131 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#background {
+  background-image: url(/img/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+  padding-left: 30px;
+}
+
+.logo img {
+  width: 80px;
+  height: auto;
+}
+
+.barra {
+  padding-right: 40px;
+}
+
+.barra a {
+  text-decoration: none;
+}
+
+#link a {
+  text-decoration: none;
+}
+
+/* ---------SECCION CENTRAL -----------*/
+.texto-central {
+  text-align: center;
+  font: #eeeee8 "Open Sans", sans-serif;
+  color: beige;
+  padding: 300px;
+}
+
+/* ---------PIE DE PAGINA  -----------*/
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #080808;
+  padding-top: 15px;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.foot-logo {
+  padding: 25px;
+}
+
+.foot-logo img {
+  margin-right: 10px;
+  width: 50px;
+  height: auto;
+}
+
+.foot-nav {
+  text-align: center;
+  padding-right: 30px;
+}
+
+#donmatute {
+  font: #eeeee8 "Open Sans", sans-serif;
+  font-size: 23px;
+  font-style: italic;
+  color: beige;
+}
+
+.medida-icono {
+  padding: 8px;
+  font-size: 25px;
+  color: beige;
+}
+
+#foot-texto {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font: #eeeee8 "Open Sans", sans-serif;
+  color: beige;
+}
+
+.col a {
+  font: #eeeee8 "Open Sans", sans-serif;
+  color: beige;
+}
+
+.foot-columna {
+  text-align: center;
+}
+
+/* ---------RESPONSIVE -----------*/
+@media (max-width: 768px) {
+  .texto-central {
+    position: center;
+    padding: 200px;
+  }
+  /* ---------PIE DE PAGINA  -----------*/
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .foot-nav {
+    padding-bottom: 10px;
+  }
+  .foot-logo img {
+    margin-right: 0px;
+  }
+}
+/*# sourceMappingURL=inicio.css.map */
